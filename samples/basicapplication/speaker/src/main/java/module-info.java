@@ -1,7 +1,7 @@
-import be.tomdewolf.jpms.versions.samples.basicapplication.microphone.api.Microphone;
+import io.github.tomdw.jpms.versions.samples.basicapplication.microphone.api.Microphone;
 
-module be.tomdewolf.jpms.versions.samples.basicapplication.speaker {
-	exports be.tomdewolf.jpms.versions.samples.basicapplication.speaker.api;
-	requires be.tomdewolf.jpms.versions.samples.basicapplication.microphone;
+module io.github.tomdw.jpms.versions.samples.basicapplication.speaker {
+	exports io.github.tomdw.jpms.versions.samples.basicapplication.speaker.api;
+	requires io.github.tomdw.jpms.versions.samples.basicapplication.microphone;
 	uses Microphone;
 }

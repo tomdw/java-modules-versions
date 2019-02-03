@@ -1,3 +1,3 @@
-module be.tomdewolf.jpms.version.info {
-	exports be.tomdewolf.jpms.version.info.api;
+module io.github.tomdw.jpms.version.info {
+	exports io.github.tomdw.jpms.version.info.api;
 }
